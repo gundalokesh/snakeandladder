@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.player1,
+.player2 {
+  font-size: 50px;
+  color: white;
+  background-color: green;
+  border: 2px solid rgb(6, 214, 255);
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  text-align: center;
+}
+.player2 {
+  background-color: #a13636;
+  border: 2px solid rgb(6, 214, 255);
+}
+button {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  transform: translate(0,50%);
+}
+.p1 button{
+    transform: translate(0,-50%);
+    
+
+}
+.dies{
+    padding-top: 130px;
+    margin: 0 auto;
+    
+   
+    
+}
+.p1,
+.p2 {
+  width: 100px;
+  border: 1.5px solid black;
+  display: grid;
+  place-items: center;
+  height: 200px;
+}
+.p1 {
+  background-color: #a13636;
+  
+  
+  border-radius: 40px 40px 0 0;
+}
+.p2 {
+  background-color: green;
+  border-radius: 0 0 40px 40px;
+}
+.snakegame
+{
+    display: flex;
+    
+}
+.identity{
+    display: grid;
+    place-items: center;
+   
+
+}
+
+.grid-container {
+    
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+ 
+    border: 1px solid black;
+    width: 800px; /* Adjust to desired width */
+    height: 550px; /* Adjust to desired height */
+    
+  }
+  
+  .grid-item {
+    background-color: white;
+    border: 1px solid black;
+  }
+  .grid-item:nth-child(even){
+    background-color: pink;
+  }
+  .grid-item:nth-child(odd){
+    background-color: bisque;
+  }
+ .id1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: green;
+ }
+ .id2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color:#a13636;
+ }
+.id1,.id2{
+    border: 2px solid black;
+    border-radius: 13px;
+}
+.no{
+    display: flex;
+    flex-direction: row-reverse;
+}
