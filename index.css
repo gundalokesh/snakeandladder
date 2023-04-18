@@ -61,12 +61,7 @@ button {
     display: flex;
     
 }
-.identity{
-    display: grid;
-    place-items: center;
-   
 
-}
 
 .grid-container {
     
@@ -76,38 +71,63 @@ button {
     grid-template-rows: repeat(10, 1fr);
  
     border: 1px solid black;
-    width: 800px; /* Adjust to desired width */
-    height: 550px; /* Adjust to desired height */
+    width: 800px; 
+    height: 550px;
+    position: relative;
     
   }
+  img{
+    position: absolute;
   
-  .grid-item {
-    background-color: white;
+    height: 550px;
+    width: 800px;
+    opacity: 0.89;
+  }
+  
+  .grid-container > div{
+    background-color: rgb(248, 241, 241);
     border: 1px solid black;
   }
-  .grid-item:nth-child(even){
-    background-color: pink;
-  }
-  .grid-item:nth-child(odd){
-    background-color: bisque;
-  }
+ 
  .id1{
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
+    position: absolute;
+    top: 520px;
+    left:0px;
+  
     background-color: green;
+    z-index: 99;
+  
+  
+    
+   
+    
+    
+    
  }
  .id2{
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 520px;
+    left: 0px;
     border-radius: 50%;
     background-color:#a13636;
+    z-index: 99;
+   
+  
  }
 .id1,.id2{
     border: 2px solid black;
     border-radius: 13px;
+    
+   
+ 
+    
+    
+    
 }
-.no{
-    display: flex;
-    flex-direction: row-reverse;
-}
+
+

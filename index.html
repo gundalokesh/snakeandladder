@@ -9,38 +9,32 @@
   </head>
   <body>
     <div class="snakegame">
-    <div class="dies">
-      <div class="p1">
-        <button onclick="player1()">Player 1</button>
-        <p class="player1"></p>
-      </div>
+      <div class="dies">
+        <div class="p1">
+          <button onclick="player1()">Player 1</button>
+          <p class="player1"></p>
+        </div>
 
-      <div class="p2">
-        <p class="player2"></p>
-        <button onclick="player2()">Player 2</button>
+        <div class="p2">
+          <p class="player2"></p>
+          <button onclick="player2()">Player 2</button>
+        </div>
       </div>
+     
+     
+        <div class="grid-container">
+          <!-- Repeat the grid items to create the full 10x10 grid -->
+        
+         
+            <img src="./snakes-ladders-image.png" alt="" />
+            
+            <p class="id1" onclick="player1()"></p>
+            <p class="id2" onclick="player2()"></p>
+        </div>
+        
+       
+     
     </div>
-
-    <div class="identity">
-        <div class="id1"></div>
-        <div class="id2"></div>
-    </div>
-
-    <div class="grid-container">
-        
-      
-        
-        
-        <!-- Repeat the grid items to create the full 10x10 grid -->
-        
-      </div>
-      
-
-
-
-
-
-</div>
 
     <script src="./script.js"></script>
   </body>
